@@ -4,6 +4,8 @@ for performing basic program development.
 
 # Requirements
 1. C/C++ compilier
+  > gcc/g++ TESTED
+  > Clang TESTED
 2. Make -> minimum version tested 3.81
 3. Cmake -> minimum required 3.12
 
