@@ -10,6 +10,7 @@ for performing basic program development.
 
 # How to Compile
 Windows w/ Mingw
+1. Make a build directory -> "mkdir build"
 1. in the project directory -> "cd build"
 2. compile using cmake -> "cmake -G "Unix Makefiles" .."
 3. after compilation finishes -> "make"
@@ -17,6 +18,7 @@ Windows w/ Mingw
 5. "./Run"
 
 Linux/Unix
+1. Make a build directory -> "mkdir build"
 1. in the project directory -> "cd build"
 2. compile using cmake -> "cmake .."
 3. after compilation finishes -> "make"
