@@ -1,0 +1,29 @@
+This is the documentation for v3 party assembler for the 
+following sample combat program
+
+The current set of rules for creating party file is as follows:
+1. first line of the file must indicate the partyID for the program
+    to read
+    1a. The first line indicating the partyID SHOULD range from 0 to 'n'
+        'n' representing the total cardinality of the party directory.
+    1b. special case is given for partyID == 0. This party will represent
+        the main player party class for which they can control. Every partyID
+        (unless further special cases are given) from 1 to n will indicate
+        an opposing party.
+2. EntityID values must range from 0 to 'n'. 'n' representing the total range of
+    entities in the party.
+
+Current syntax for v3 are as follows:
+{PartyID}:{EntityName}:{EntityLevel}:{EntityHealth}:{EntityAttack}:{EntityDefense}
+    >   PartyID == from values 0 to 'n'
+    >   EntityName == Name given to entity of the party
+    >   EntityLevel == Level modifier for the entity
+    >   EntityHealth-EntityAttack-EntityDefense == Self explanitory.
+
+
+Sample "Party0.txt": -> typically you should match the partyID with the title of .txt
+
+    0
+    0:Sean:10:100:15:10
+    1:Gordon:10:50:45:10
+    2:Ulysses:10:65:25:15
