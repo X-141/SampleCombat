@@ -3,8 +3,8 @@ Simple implementation of a turnbased combat system that is reserved as mostly sa
 for performing basic program development.
 
 # Requirements
-1. C/C++ compilier\n
-  gcc/g++ TESTED.
+1. C/C++ compilier
+  a. gcc/g++ TESTED.
 2. Make -> minimum version tested 3.81
 3. Cmake -> minimum required 3.12
 
