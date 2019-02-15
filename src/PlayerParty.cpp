@@ -33,10 +33,3 @@ PlayerParty::~PlayerParty() {
     }
     std::cout << "Player party deleted" << std::endl;
 }
-
-// PlayerParty::~PlayerEntity() {
-//     for(Entity *entity : m_PartyRoster) {
-//         delete entity;
-//     }
-//     std::cout << "Player party deleted" << std::endl;
-// }
