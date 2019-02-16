@@ -4,7 +4,9 @@ for performing basic program development.
 
 # Requirements
 1. C/C++ compilier -> 
-  gcc/g++ tested
+  * Linux gcc/g++ v8.2.1 tested -> working
+  * MacOS AppleClang v10.0.0 tested -> working
+  * Windows MingW gcc/g++ v6.3.0 tested -> working
 2. Make -> minimum version tested 3.81
 3. Cmake -> minimum required 3.12
 
